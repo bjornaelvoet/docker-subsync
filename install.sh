@@ -7,7 +7,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]
 then
         # Mac OSX
 	# Copy to /usr/local/bin/docker-subsync
-	#sudo cp ./run_multitrachours.sh /usr/local/bin/docker-multitrachours.sh
+	sudo cp ./run.sh /usr/local/bin/docker-subsync.sh
 	#sudo chmod +x /usr/local/bin/docker-multitrachours.sh
 	#sudo cp ./run_planholidays.sh /usr/local/bin/docker-planholidays.sh
 	#sudo chmod +x /usr/local/bin/docker-planholidays.sh
