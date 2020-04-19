@@ -1,8 +1,6 @@
 # Using alpine as start image
 FROM python
 
-MAINTAINER Bjorn Aelvoet <bjorn.aelvoet@dana.com>
-
 # Requirements file containing the python dependencies
 COPY requirements.txt ./
 
