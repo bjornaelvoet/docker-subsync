@@ -1,8 +1,6 @@
 # Using alpine as start image
 FROM python
 
-MAINTAINER Bjorn Aelvoet <bjorn.aelvoet@dana.com>
-
 RUN apt-get update -qq && apt-get install -y \
     ffmpeg \
     git
